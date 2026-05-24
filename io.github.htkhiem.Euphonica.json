@@ -1,7 +1,7 @@
 {
     "id" : "io.github.htkhiem.Euphonica",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
+    "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable",
@@ -31,7 +31,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/htkhiem/euphonica.git",
-                    "commit": "bc8af724a72b757d8d934e9c2317d810eded56e0"
+                    "commit": "a4602dc3e9033cc8b14e6ff942ee899d7a497e63"
                 },
                 "cargo-sources.json",
                 {
