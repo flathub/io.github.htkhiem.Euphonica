@@ -2,8 +2,8 @@
     {
         "type": "git",
         "url": "https://github.com/htkhiem/rust-mpd",
-        "commit": "a8ddd7d624ee7ea2f4128e6df878e6b05fe5b0e7",
-        "dest": "flatpak-cargo/git/rust-mpd-a8ddd7d"
+        "commit": "e9f5ad589e0eaaeb1d9758cc3a6b5762bb67e4b5",
+        "dest": "flatpak-cargo/git/rust-mpd-e9f5ad5"
     },
     {
         "type": "archive",
@@ -3141,7 +3141,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/rust-mpd-a8ddd7d/.\" \"cargo/vendor/mpd\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/rust-mpd-e9f5ad5/.\" \"cargo/vendor/mpd\""
         ]
     },
     {
@@ -6798,7 +6798,7 @@
     },
     {
         "type": "inline",
-        "contents": "[source.vendored-sources]\ndirectory = \"cargo/vendor\"\n\n[source.crates-io]\nreplace-with = \"vendored-sources\"\n\n[source.\"https://github.com/htkhiem/rust-mpd\"]\ngit = \"https://github.com/htkhiem/rust-mpd\"\nreplace-with = \"vendored-sources\"\nrev = \"a8ddd7d624ee7ea2f4128e6df878e6b05fe5b0e7\"\n",
+        "contents": "[source.vendored-sources]\ndirectory = \"cargo/vendor\"\n\n[source.crates-io]\nreplace-with = \"vendored-sources\"\n\n[source.\"https://github.com/htkhiem/rust-mpd\"]\ngit = \"https://github.com/htkhiem/rust-mpd\"\nreplace-with = \"vendored-sources\"\nrev = \"e9f5ad589e0eaaeb1d9758cc3a6b5762bb67e4b5\"\n",
         "dest": "cargo",
         "dest-filename": "config"
     }
