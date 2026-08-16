@@ -31,7 +31,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/htkhiem/euphonica.git",
-                    "commit": "a4602dc3e9033cc8b14e6ff942ee899d7a497e63"
+                    "commit": "976dda0368aa8e78c164579396070aee54437ad7"
                 },
                 "cargo-sources.json",
                 {
