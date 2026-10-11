@@ -2,8 +2,8 @@
     {
         "type": "git",
         "url": "https://github.com/htkhiem/rust-mpd",
-        "commit": "218e1af6c44e08101b3c99f0df0fe1d10c3702b4",
-        "dest": "flatpak-cargo/git/rust-mpd-218e1af"
+        "commit": "0bb8342c47244548724a5b1bcc523d9ffe3ca47f",
+        "dest": "flatpak-cargo/git/rust-mpd-0bb8342"
     },
     {
         "type": "archive",
@@ -81,6 +81,32 @@
         "type": "inline",
         "contents": "{\"package\": \"683d7910e743518b0e34f1186f92494becacb047c7b6bf616c96772180fef923\", \"files\": {}}",
         "dest": "cargo/vendor/allocator-api2-0.2.21",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/alsa/alsa-0.12.1.crate",
+        "sha256": "d3f93573e7ddb15145d27c58c0fa0a452faad9f5452ac17ed4554ea035ea9b71",
+        "dest": "cargo/vendor/alsa-0.12.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"d3f93573e7ddb15145d27c58c0fa0a452faad9f5452ac17ed4554ea035ea9b71\", \"files\": {}}",
+        "dest": "cargo/vendor/alsa-0.12.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/alsa-sys/alsa-sys-0.6.1.crate",
+        "sha256": "f0320138053ef93099f168102c37b46ac0b9c53affc56ef7696633ad5477e2be",
+        "dest": "cargo/vendor/alsa-sys-0.6.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"f0320138053ef93099f168102c37b46ac0b9c53affc56ef7696633ad5477e2be\", \"files\": {}}",
+        "dest": "cargo/vendor/alsa-sys-0.6.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -2933,7 +2959,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/rust-mpd-218e1af/.\" \"cargo/vendor/mpd\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/rust-mpd-0bb8342/.\" \"cargo/vendor/mpd\""
         ]
     },
     {
@@ -6135,7 +6161,7 @@
     },
     {
         "type": "inline",
-        "contents": "[source.vendored-sources]\ndirectory = \"cargo/vendor\"\n\n[source.crates-io]\nreplace-with = \"vendored-sources\"\n\n[source.\"https://github.com/htkhiem/rust-mpd\"]\ngit = \"https://github.com/htkhiem/rust-mpd\"\nreplace-with = \"vendored-sources\"\nrev = \"218e1af6c44e08101b3c99f0df0fe1d10c3702b4\"\n",
+        "contents": "[source.vendored-sources]\ndirectory = \"cargo/vendor\"\n\n[source.crates-io]\nreplace-with = \"vendored-sources\"\n\n[source.\"https://github.com/htkhiem/rust-mpd\"]\ngit = \"https://github.com/htkhiem/rust-mpd\"\nreplace-with = \"vendored-sources\"\nrev = \"0bb8342c47244548724a5b1bcc523d9ffe3ca47f\"\n",
         "dest": "cargo",
         "dest-filename": "config"
     }
