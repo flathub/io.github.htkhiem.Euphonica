@@ -5,7 +5,7 @@
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable",
-        "org.freedesktop.Sdk.Extension.llvm21"
+        "org.freedesktop.Sdk.Extension.llvm22"
     ],
     "command": "euphonica",
     "finish-args": [
