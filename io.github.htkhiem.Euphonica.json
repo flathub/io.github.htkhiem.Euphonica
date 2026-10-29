@@ -5,7 +5,7 @@
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable",
-        "org.freedesktop.Sdk.Extension.llvm21"
+        "org.freedesktop.Sdk.Extension.llvm22"
     ],
     "command": "euphonica",
     "finish-args": [
@@ -73,7 +73,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/htkhiem/euphonica.git",
-                    "commit": "2ad4e5500b5e3f31fe8c19387637a0ab6635817d"
+                    "commit": "1372877f3640a5a21543f69e72109b985bfbc629"
                 },
                 "cargo-sources.json",
                 {
@@ -88,8 +88,8 @@
                 "env": {
                     "CARGO_NET_OFFLINE": "true"
                 },
-                "append-path": "/usr/lib/sdk/llvm21/bin",
-                "prepend-ld-library-path": "/usr/lib/sdk/llvm21/lib"
+                "append-path": "/usr/lib/sdk/llvm22/bin",
+                "prepend-ld-library-path": "/usr/lib/sdk/llvm22/lib"
             }
         }
     ]
