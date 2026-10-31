@@ -2,8 +2,8 @@
     {
         "type": "git",
         "url": "https://github.com/htkhiem/rust-mpd",
-        "commit": "0bb8342c47244548724a5b1bcc523d9ffe3ca47f",
-        "dest": "flatpak-cargo/git/rust-mpd-0bb8342"
+        "commit": "de300974875aa74d0402b81094d75aada7815503",
+        "dest": "flatpak-cargo/git/rust-mpd-de30097"
     },
     {
         "type": "archive",
@@ -2660,14 +2660,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/libspa-sys/libspa-sys-0.10.0.crate",
-        "sha256": "69ad52764fca54818486f3cf75afec844d1f1a1568c24dcee25d41b1ab007dda",
-        "dest": "cargo/vendor/libspa-sys-0.10.0"
+        "url": "https://static.crates.io/crates/libspa-sys/libspa-sys-0.10.1.crate",
+        "sha256": "3b6e17bdaf63ed0d5e4144022624032b41fd9733112e8c74ac26fc9bf1291924",
+        "dest": "cargo/vendor/libspa-sys-0.10.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"69ad52764fca54818486f3cf75afec844d1f1a1568c24dcee25d41b1ab007dda\", \"files\": {}}",
-        "dest": "cargo/vendor/libspa-sys-0.10.0",
+        "contents": "{\"package\": \"3b6e17bdaf63ed0d5e4144022624032b41fd9733112e8c74ac26fc9bf1291924\", \"files\": {}}",
+        "dest": "cargo/vendor/libspa-sys-0.10.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -2959,7 +2959,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/rust-mpd-0bb8342/.\" \"cargo/vendor/mpd\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/rust-mpd-de30097/.\" \"cargo/vendor/mpd\""
         ]
     },
     {
@@ -3484,27 +3484,27 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/pipewire/pipewire-0.10.0.crate",
-        "sha256": "8585aba8a52ad74ccc633b8e293c1dc4277976bd5d510b925533f34fd6685f38",
-        "dest": "cargo/vendor/pipewire-0.10.0"
+        "url": "https://static.crates.io/crates/pipewire/pipewire-0.10.1.crate",
+        "sha256": "bde71084c4e25959d68f1ea54daa75e5ecdb338e5caf0b5510143b79baa32d5c",
+        "dest": "cargo/vendor/pipewire-0.10.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"8585aba8a52ad74ccc633b8e293c1dc4277976bd5d510b925533f34fd6685f38\", \"files\": {}}",
-        "dest": "cargo/vendor/pipewire-0.10.0",
+        "contents": "{\"package\": \"bde71084c4e25959d68f1ea54daa75e5ecdb338e5caf0b5510143b79baa32d5c\", \"files\": {}}",
+        "dest": "cargo/vendor/pipewire-0.10.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/pipewire-sys/pipewire-sys-0.10.0.crate",
-        "sha256": "f2089f245b548723e60325773c27f586b7a2372c79ea941b246cd0d654706adc",
-        "dest": "cargo/vendor/pipewire-sys-0.10.0"
+        "url": "https://static.crates.io/crates/pipewire-sys/pipewire-sys-0.10.1.crate",
+        "sha256": "9ce653f53e63e5b93853218092ee9a8906a5d082c92f3f1db26316955dd63ce0",
+        "dest": "cargo/vendor/pipewire-sys-0.10.1"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"f2089f245b548723e60325773c27f586b7a2372c79ea941b246cd0d654706adc\", \"files\": {}}",
-        "dest": "cargo/vendor/pipewire-sys-0.10.0",
+        "contents": "{\"package\": \"9ce653f53e63e5b93853218092ee9a8906a5d082c92f3f1db26316955dd63ce0\", \"files\": {}}",
+        "dest": "cargo/vendor/pipewire-sys-0.10.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6161,7 +6161,7 @@
     },
     {
         "type": "inline",
-        "contents": "[source.vendored-sources]\ndirectory = \"cargo/vendor\"\n\n[source.crates-io]\nreplace-with = \"vendored-sources\"\n\n[source.\"https://github.com/htkhiem/rust-mpd\"]\ngit = \"https://github.com/htkhiem/rust-mpd\"\nreplace-with = \"vendored-sources\"\nrev = \"0bb8342c47244548724a5b1bcc523d9ffe3ca47f\"\n",
+        "contents": "[source.vendored-sources]\ndirectory = \"cargo/vendor\"\n\n[source.crates-io]\nreplace-with = \"vendored-sources\"\n\n[source.\"https://github.com/htkhiem/rust-mpd\"]\ngit = \"https://github.com/htkhiem/rust-mpd\"\nreplace-with = \"vendored-sources\"\nrev = \"de300974875aa74d0402b81094d75aada7815503\"\n",
         "dest": "cargo",
         "dest-filename": "config"
     }
